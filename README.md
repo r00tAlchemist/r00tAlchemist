@@ -184,6 +184,14 @@ Jailbreak для DeepSeek-v3 из исследования безопаснос�
 </tr>
 </table>
 
+## 📝 Публикации
+
+**[Я запустил whoami из 1С, а SIEM промолчала. Как ловить выполнение кода через внешние обработки](https://habr.com/ru/articles/1105852/)** · Хабр, 2026
+
+Запуск команд из внешней обработки 1С не оставляет следов ни в журнале регистрации, ни в SIEM. В статье разбираю, как доставить журнал регистрации в SIEM, и показываю правила на подбор пароля, создание и удаление пользователей, изменение конфигурации и запуск оболочки из процессов 1С, включая веб-клиент через w3wp.exe. Код и правила лежат в [1C Threat Detection](https://github.com/r00tAlchemist/1c-threat-detection).
+
+<sub><img src="https://img.shields.io/badge/Habr-65A3BE?style=flat-square&logo=habr&logoColor=white" alt="Habr"> <img src="https://img.shields.io/badge/Blue_Team-1f6feb?style=flat-square" alt="Blue Team"> <img src="https://img.shields.io/badge/1%D0%A1-30363d?style=flat-square" alt="1С"> <img src="https://img.shields.io/badge/Sigma_%C2%B7_Wazuh-30363d?style=flat-square" alt="Sigma · Wazuh"></sub>
+
 ---
 
 <p align="center">
