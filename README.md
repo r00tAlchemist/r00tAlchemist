@@ -186,6 +186,12 @@ Jailbreak для DeepSeek-v3 из исследования безопаснос�
 
 ## 📝 Публикации
 
+**[У SOC отобрали время: ИИ-агент оставил защите вдвое меньше времени на реакцию](https://habr.com/ru/articles/1108186/)** · Хабр, 2026
+
+Сравниваю, сколько времени остаётся у SOC после первого алерта, с тем, за сколько ИИ-агент доходит до контроллера домена на стенде: около 30 минут против почти часа у junior-специалиста. Предлагаю правила Sigma, которые ловят атаку по темпу действий, учётку-ловушку в домене и разделение автоматических и ручных реакций. Стенд: Wazuh, OPNsense + Suricata, ModSecurity, Sysmon, auditd.
+
+<sub><img src="https://img.shields.io/badge/Habr-65A3BE?style=flat-square&logo=habr&logoColor=white" alt="Habr"> <img src="https://img.shields.io/badge/Blue_Team-1f6feb?style=flat-square" alt="Blue Team"> <img src="https://img.shields.io/badge/AI_Agents-30363d?style=flat-square" alt="AI Agents"> <img src="https://img.shields.io/badge/Sigma_%C2%B7_Wazuh-30363d?style=flat-square" alt="Sigma · Wazuh"></sub>
+
 **[Я запустил whoami из 1С, а SIEM промолчала. Как ловить выполнение кода через внешние обработки](https://habr.com/ru/articles/1105852/)** · Хабр, 2026
 
 Запуск команд из внешней обработки 1С не оставляет следов ни в журнале регистрации, ни в SIEM. В статье разбираю, как доставить журнал регистрации в SIEM, и показываю правила на подбор пароля, создание и удаление пользователей, изменение конфигурации и запуск оболочки из процессов 1С, включая веб-клиент через w3wp.exe. Код и правила лежат в [1C Threat Detection](https://github.com/r00tAlchemist/1c-threat-detection).
